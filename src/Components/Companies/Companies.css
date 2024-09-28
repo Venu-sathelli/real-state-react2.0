@@ -1,0 +1,22 @@
+.c-container{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container img{
+    width: 10rem;
+}
+@media (max-width:768px) {
+     .c-container{
+        display: flex;  
+     }
+     .c-cont{
+        display: flex;
+     }
+     .c-container img{
+        display: flex;
+        width: 8rem;
+    }
+    
+  }

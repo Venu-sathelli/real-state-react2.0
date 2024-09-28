@@ -1,0 +1,32 @@
+.g-wrapper{
+    margin-top: 40px;
+}
+.g-container{
+    background-color: blue;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 8px solid rgb(215, 215, 215);
+}
+.g-container .secondarytext{
+    font-size: 18px;
+    width: 34rem;
+    color: rgb(184, 184, 184);
+    text-align: center;
+    margin-top: 20px;
+}
+.g-container .primary-text{
+    color: white;
+}
+.g-container .button{
+    margin-top:30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(12, 12, 80, 0.448);
+}
